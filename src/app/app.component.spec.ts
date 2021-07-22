@@ -1,5 +1,5 @@
-import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import {TestBed} from '@angular/core/testing';
+import {AppComponent} from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -28,4 +28,16 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('unit-tests app is running!');
   });
+
+
+  // Test the changeTitle function
+
+
+  // Test the callChangeTitle function if the title has not been changed
+
+
+  // Test the callChangeTitle function if the title has been already changed
+
+
+  // Test the content of the stringObservable array
 });
